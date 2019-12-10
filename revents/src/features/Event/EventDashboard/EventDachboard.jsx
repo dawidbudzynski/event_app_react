@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid } from "semantic-ui-react";
 
-class EventDachboard extends Component {
+class EventDashboard extends Component {
   render() {
     return (
       <Grid>
@@ -16,4 +16,4 @@ class EventDachboard extends Component {
   }
 }
 
-export default EventDachboard;
+export default EventDashboard;
