@@ -5,9 +5,9 @@ class EventList extends Component {
   render() {
     return (
       <div>
-        <EventListItem />
-        <EventListItem />
-        <EventListItem />
+        {this.props.events.map(event =>(
+          <EventListItem key={event.id} event={event} />
+        ))}
       </div>
     );
   }
