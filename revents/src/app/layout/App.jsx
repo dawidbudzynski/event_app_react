@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 import { Container } from "semantic-ui-react";
 import { Route } from "react-router-dom";
 import EventForm from "../../features/events/EventForm/EventForm";
-import NavBar from "../../features/nav/NavBar";
+import NavBar from "../../features/nav/NavBar/NavBar";
 import HomePage from "../../features/home/HomePage";
 import EventDachboard from "../../features/events/EventDashboard/EventDachboard";
 import EventDetailedPage from "../../features/events/EventDetailed/EventDetailedPage";
